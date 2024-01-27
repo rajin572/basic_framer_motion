@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .main {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: 2px solid tomato;
+  background-color: transparent;
+  color: tomato;
+  padding: 10px 20px;
+  transition-timing-function: ease;
+  transition-duration: 500ms;
+  position: relative;
+  overflow: hidden;
+}
+.btn::after {
+  content: "";
+  background-color: tomato;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transition-property: all;
+  transition-duration: 500ms;
+
+  transform: rotateX(90deg);
+}
+.btn:hover {
+  color: white;
+}
+.btn:hover::after {
+  background-color: tomato;
+  transform: rotate(0deg);
+} */
+
+/** Animation
+.main {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .box-1 {
+  background-color: tomato;
+  height: 150px;
+  width: 150px;
+  animation-name: moving;
+  animation-duration: 5000ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} */
+/* 
+@keyframes moving {
+  0% {
+    transform: translateX(0px);
+    background-color: tomato;
+  }
+  25% {
+    transform: translate(200px);
+    background-color: cyan;
+  }
+  50% {
+    transform: translate(200px, 200px);
+    background-color: tomato;
+  }
+  75% {
+    transform: translate(0px, 200px);
+    background-color: cyan;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    background-color: tomato;
+  }
+} */
