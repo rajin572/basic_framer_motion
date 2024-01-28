@@ -34,13 +34,12 @@ const Leason5 = () => {
     },
   };
   return (
-    <div className="size-80 border-2 flex justify-center items-center ">
+    <div className="size-80 border-2 flex justify-center items-center">
       <motion.div
         className="size-40 bg-red-700 rounded-md"
         variants={variant}
         initial="initial"
         animate="animation"
-        drag
         // transition={{ duration: 1, repeat: Infinity }}
       ></motion.div>
     </div>
